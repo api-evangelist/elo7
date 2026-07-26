@@ -1,7 +1,25 @@
 aid: elo7
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elo7.png
 name: elo7
-description: elo7 is a company surfaced as a portfolio company of insight-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Elo7 was a Brazilian online marketplace for handmade, customized, and creative products
+  — frequently described as "the Etsy of Brazil." Founded in 2008 and headquartered in Sao Paulo, it
+  connected independent artisans and small makers with buyers across Brazil for party supplies, decor,
+  crafts, and personalized goods. Etsy acquired Elo7 in July 2021 for roughly USD 217 million, then sold
+  it to Brazilian firm Enjoei S.A. in July 2023, after which the marketplace was wound down and stopped
+  accepting new orders. Elo7 published no public developer API or OpenAPI; its GitHub organization holds
+  only small internal frontend (AMD) utility libraries. This profile entered the API Evangelist network
+  as an Insight Partners portfolio lead and is enriched here with the real, honest surface that remains.
 url: https://raw.githubusercontent.com/api-evangelist/elo7/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +27,20 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: Marketplace wound down after Etsy sold Elo7 to Enjoei S.A. in July 2023; no public API.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Marketplace
+- E-commerce
+- Handmade
+- Crafts
+- Brazil
+- Consumer
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/elo7-domain-security.yml
 - type: Website
   url: http://www.elo7.com.br/
+- type: GitHubOrganization
+  url: https://github.com/elo7
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
