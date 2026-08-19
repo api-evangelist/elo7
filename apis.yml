@@ -29,7 +29,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 x-status: defunct
 x-status-note: Marketplace wound down after Etsy sold Elo7 to Enjoei S.A. in July 2023; no public API.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
