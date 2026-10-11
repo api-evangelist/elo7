@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "elo7",
+    "captured_at": "2026-10-11T184828",
+    "source_url": "http://www.elo7.com.br/",
+    "source_type": "Website",
+    "file": "elo7-2026-10-11T184828.png",
+    "bytes": 64786,
+    "capture": "playwright-local"
+  }
+]
